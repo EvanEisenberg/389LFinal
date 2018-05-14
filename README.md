@@ -24,4 +24,4 @@ Step 3: Integrating the chatbot with Twilio
 Finally, I integrated the chatbot into twilio to allow users to actually interact with it through text. To do so, I went to the channels tab of the HealthBot in the AWS GUI, made a twilio account and put in the appropriate information. Then I enabled the twilio project and associated a phone number with the HealthBot.
 
 Architecture Diagram:
-
+See architecure diagram file for picture
