@@ -12,4 +12,6 @@ Medication is used when the user wants to ask about medication. The smaple utter
 
 I then built the lambda functions corresponding to these intents based off of the Amazon lex examples avaliable online. The code is in the lambda.py file.
 
-Finally, I found the nessecary information about the different types of medication online (from iodine.com), put the data in s3 buckets, and wrote the lambda code that accesses the buckets when they are needed.
+The last step of making the bot itself was to find the necessary information about the different types of medication online (from iodine.com), put the data in s3 buckets, and write the lambda code that accesses the buckets when they are needed.
+
+Finally, I integrated the chatbot into twilio to allow users to actually interact with it through text. To do so, I went to the channels tab of the HealthBot in the AWS GUI, made a twilio account and put in the appropriate information. Then I enabled the twilio project and associated a phone number with the HealthBot.
