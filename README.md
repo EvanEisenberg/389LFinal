@@ -25,3 +25,6 @@ Finally, I integrated the chatbot into twilio to allow users to actually interac
 
 Architecture Diagram:
 See architecure diagram file for picture
+
+Demo Video:
+https://youtu.be/k2JUd9lL0Kw
